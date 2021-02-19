@@ -17,30 +17,3 @@ const SignIn = () => {
 };
 
 export default SignIn;
-
-const StyledWrapper = styled.div`
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-
-    h1 {
-        color: #f48023;
-        padding: 1rem;
-    }
-
-    form {
-        background-color: white;
-        border: solid 2px #f48023;
-        display: flex;
-        flex-direction: column;
-        width: 20rem;
-        justify-content: center;
-        align-items: center;
-        padding: 1rem;
-
-        input {
-            margin-bottom: 1rem;
-        }
-    }
-`;
